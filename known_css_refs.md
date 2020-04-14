@@ -46,10 +46,10 @@ Sources:
 ## Colors
 | Element | Example Value | HA Version | Description
 | ---- | ---- | ---- | -----------
-|`primary-text-color:`|`'#FFFFFF'`| | CSS color value for the color to be used.
-|`text-primary-color:`| | |
-|`secondary-text-color:`| | | 
-|`disabled-text-color:`| | |
+|`primary-text-color:`|`'#FFFFFF'`| | Primary text color.
+|`text-primary-color:`| | | Top menu text and icon color
+|`secondary-text-color:`| | | Secondary text color (text input, secondary smaller text, devider line) if not defined primary is used.
+|`disabled-text-color:`| | | Color of unavailable entity colors
 |`accent-color:`| | | 
 |`accent-medium-color:`| | | 
 |`background-color:`| | | 
@@ -58,7 +58,7 @@ Sources:
 |`secondary-background-color:`| |CSS color value, ie. `red`|secondary color that can be used by cards, e.g. custom updater card uses it to color every second row
 |`border-color:`| | | 
 |`divider-color:`| | |
-|`primary-color:`| | |
+|`primary-color:`| | | Main color for top bar, selected item in left menu bar, selected text, devider text color.
 |`dark-primary-color:`| | | 
 |`light-primary-color:`|CSS color value, ie. `red`| |color of your Avatars letter background
 |`paper-tabs-selection-bar-color:`| | |
